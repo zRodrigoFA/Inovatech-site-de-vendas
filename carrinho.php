@@ -49,7 +49,7 @@ if (isset($_POST['quantidade']) && isset($_POST['produto_id']) && isset($_POST['
 use Itau\QrcodePix\Payload;
 use Itau\QrcodePix\QrCodePix;
 
-$chavePix = '48501256897'; //Pix
+$chavePix = 'Sóteste'; //Pix
 $valor = calcularTotalCarrinho($_SESSION['carrinho']); 
 $descricao = 'Pagamento do carrinho de compras'; 
 
