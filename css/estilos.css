@@ -1,0 +1,47 @@
+body {
+    min-width: 372px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    background: gray;
+}
+
+.qr-code-container {
+    position: relative;
+    display: inline-block;
+}
+.qr-code-overlay {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(7, 7, 7, 0.8);
+    padding: 20px;
+    text-align: center;
+    
+    border: 10px;
+}
+
+.qr-code-overlay img {
+    max-width: 100%;
+    height: auto;
+    width: 50%; /* Define a largura desejada */
+    height: 50%; /* Define a altura desejada */
+}
+
+.payment-message {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(7, 7, 7, 0.8);
+    padding: 20px;
+    text-align: center;
+}
